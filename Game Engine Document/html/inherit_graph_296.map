@@ -1,0 +1,9 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_magnum_1_1_texture_base.html" title="TextureBase. " alt="" coords="5,101,159,128"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_texture2_d_base.html" title="TextureBase. " alt="" coords="213,69,383,96"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_texture_cube_base.html" title="TextureCubeBase. " alt="" coords="207,132,389,159"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_font.html" title="Font Graphics Object. " alt="" coords="471,5,578,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_sprite_sheet.html" title="Magnum::SpriteSheet" alt="" coords="451,56,599,83"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_texture2_d_file.html" title="Texture2DFile. " alt="" coords="445,107,605,133"/>
+<area shape="rect" id="node7" href="$class_magnum_1_1_texture_cube_file.html" title="TextureCubeFile. " alt="" coords="437,157,612,184"/>
+</map>

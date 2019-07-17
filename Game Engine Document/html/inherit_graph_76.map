@@ -1,0 +1,8 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_magnum_1_1_curve2.html" title="Magnum::Curve2" alt="" coords="5,31,124,57"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_multiple_curve2.html" title="Magnum::MultipleCurve2" alt="" coords="172,5,336,32"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_single_curve2.html" title="Magnum::SingleCurve2" alt="" coords="177,56,331,83"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_t_c_b_spline2.html" title="Magnum::TCBSpline2" alt="" coords="392,5,540,32"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_bezier_curve2.html" title="Magnum::BezierCurve2" alt="" coords="388,56,544,83"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_b_spline_curve2.html" title="Magnum::BSplineCurve2" alt="" coords="384,107,548,133"/>
+</map>

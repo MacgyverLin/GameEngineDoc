@@ -1,0 +1,8 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_magnum_1_1_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="5,46,145,73"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_skeletal_anim_base.html" title="Base class For all type of Skeletal Animation. " alt="" coords="193,46,380,73"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_skeletal_key_frame_animation.html" title="Base class For all type of Skeletal KeyFrame Animation. " alt="" coords="429,5,616,47"/>
+<area shape="rect" id="node5" href="$class_magnum_1_1_skeletal_procedural_animation.html" title="Base class For all type of Skeletal Procedural Animation. " alt="" coords="428,71,617,112"/>
+<area shape="rect" id="node4" href="$class_magnum_1_1_skeletal_animation.html" title="TCB Spline data driven Animation. " alt="" coords="673,13,859,39"/>
+<area shape="rect" id="node6" href="$class_magnum_1_1_skeletal_anim_blender.html" title="Animation blender. " alt="" coords="665,78,867,105"/>
+</map>

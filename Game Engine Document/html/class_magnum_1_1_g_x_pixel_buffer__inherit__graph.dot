@@ -1,0 +1,16 @@
+digraph "Magnum::GXPixelBuffer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::GXPixelBuffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::GXColorBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_color_buffer.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Magnum::GXDepthBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_depth_buffer.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Magnum::GXTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_texture.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Magnum::GXTexture2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_texture2_d.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Magnum::GXTextureCube",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_texture_cube.html"];
+}

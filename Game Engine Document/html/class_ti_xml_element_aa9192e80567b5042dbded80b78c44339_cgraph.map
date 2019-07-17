@@ -1,0 +1,6 @@
+<map id="TiXmlElement::Attribute" name="TiXmlElement::Attribute">
+<area shape="rect" id="node2" href="$class_ti_xml_attribute.html#a0f874490eac8ca00ee0070765d0e97e3" title="Return the value of this attribute. " alt="" coords="427,71,570,98"/>
+<area shape="rect" id="node3" href="$class_ti_xml_attribute.html#ad6c93088ee21af41a107931223339344" title="QueryIntValue examines the value string. " alt="" coords="212,30,371,72"/>
+<area shape="rect" id="node4" href="$class_ti_xml_element.html#ac1e4691e9375ba4e665dce7e46a50a9c" title="Given an attribute name, Attribute() returns the value for the attribute of that name, or null if none exists. " alt="" coords="212,96,371,123"/>
+<area shape="rect" id="node5" href="$class_ti_xml_attribute.html#a87705c3ccf9ee9417beb4f7cbacd4d33" title="Return the value of this attribute. " alt="" coords="419,134,579,160"/>
+</map>

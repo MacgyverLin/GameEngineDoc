@@ -1,0 +1,20 @@
+digraph "Magnum::ClosestConvexCastCB"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Magnum::ClosestConvexCastCB",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="btCollisionWorld::Convex\lResultCallback",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" result" ];
+  Node3 [label="Magnum::Physics3::Convex\lCastResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_physics3_1_1_convex_cast_result.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" convexFromWorld\nconvexToWorld" ];
+  Node4 [label="Magnum::Vector3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector3.html"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ONE\nZERO\nUNIT_X\nUNIT_Y\nUNIT_Z" ];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" hitPointWorlds\nhitNormalWorlds" ];
+  Node5 [label="Magnum::Vector\< Magnum\l::Vector3 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector.html"];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" hitFractions" ];
+  Node6 [label="Magnum::Vector\< float \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector.html"];
+  Node7 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" hitCollisionObjects" ];
+  Node7 [label="Magnum::Vector\< const\l void * \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector.html"];
+}

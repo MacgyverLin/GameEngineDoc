@@ -1,0 +1,25 @@
+digraph "Magnum::RendererBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Magnum::RendererBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::Component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_component.html",tooltip="Component. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Magnum::BillBoardRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_bill_board_renderer.html",tooltip="BillBoardRenderer. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Magnum::CubeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_cube_renderer.html",tooltip="CubeRenderer. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Magnum::DiffuseMapCubeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_diffuse_map_cube_renderer.html",tooltip="DiffuseMapCubeRenderer. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Magnum::DiffuseMapSpecular\lMapCubeRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_diffuse_map_specular_map_cube_renderer.html",tooltip="DiffuseMapSpecularMapCubeRenderer. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Magnum::EditorGizmoRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_editor_gizmo_renderer.html",tooltip="EditorGizmoRenderer. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Magnum::ParticleEmitterRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_particle_emitter_renderer.html",tooltip="ParticleEmitterRenderer. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Magnum::SkeletalAnimModel\lRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_skeletal_anim_model_renderer.html",tooltip="SkeletalAnimModelRenderer. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Magnum::SkySphereRenderer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_sky_sphere_renderer.html",tooltip="SkySphereRenderer. "];
+}

@@ -1,0 +1,5 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; Functor2\l\&lt; P1, P2 \&gt; \&gt;" alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_functor2.html" title="Magnum::Functor2\&lt; P1,\l P2 \&gt;" alt="" coords="220,5,383,47"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_delegate2.html" title="Magnum::Delegate2\&lt;\l U, P1, P2 \&gt;" alt="" coords="431,5,577,47"/>
+</map>

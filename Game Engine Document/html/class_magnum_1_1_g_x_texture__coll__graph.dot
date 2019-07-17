@@ -1,0 +1,21 @@
+digraph "Magnum::GXTexture"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::GXTexture",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::GXPixelBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_pixel_buffer.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" format" ,fontname="Helvetica"];
+  Node3 [label="Magnum::GXPixelFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_pixel_format.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" I8\nR4G4B4A4\nRGB_ETC\nR8G8B8\nR16G16B16A16\nR32G32B32A32\nRGBA_PVRTC2\nRGB_PVRTC2\nRGBA_PVRTC4\nRGB_PVRTC4\n..." ,fontname="Helvetica"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" option" ,fontname="Helvetica"];
+  Node4 [label="Magnum::GXPixelBufferOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_pixel_buffer_option.html"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Renderable\nNone" ,fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" type" ,fontname="Helvetica"];
+  Node5 [label="Magnum::GXPixelBufferType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_pixel_buffer_type.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" DepthBuffer\nNone\nGXTexture2D\nGXTextureCube\nGXColorBuffer" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" wrap" ,fontname="Helvetica"];
+  Node6 [label="Magnum::GXTextureWrapState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_texture_wrap_state.html"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" filter" ,fontname="Helvetica"];
+  Node7 [label="Magnum::GXTextureFilterState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_texture_filter_state.html"];
+}

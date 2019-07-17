@@ -1,0 +1,5 @@
+<map id="圖形化之類別階層" name="圖形化之類別階層">
+<area shape="rect" id="node1" href="$class_magnum_1_1_link.html" title="Magnum::Link\&lt; IService \&gt;" alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node2" href="$class_magnum_1_1_i_service.html" title="This is interface for the Services. " alt="" coords="227,5,352,32"/>
+<area shape="rect" id="node3" href="$class_magnum_1_1_service.html" title="Magnum::Service\&lt; T \&gt;" alt="" coords="400,5,553,32"/>
+</map>

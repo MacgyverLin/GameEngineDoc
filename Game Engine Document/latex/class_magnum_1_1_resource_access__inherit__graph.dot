@@ -1,0 +1,31 @@
+digraph "Magnum::ResourceAccess"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Magnum::ResourceAccess",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Magnum::AudioClip::\lResource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_audio_clip_1_1_resource.html",tooltip="AudioClip::Resource AudioClip::Resource is the class resposible for audio clip resource. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Magnum::BVHTriangleMeshShape3\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_b_v_h_triangle_mesh_shape3_1_1_resource.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="Magnum::Font::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_font_1_1_resource.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Magnum::HeightFieldShape3\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_height_field_shape3_1_1_resource.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="Magnum::MagnumPrefab\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_magnum_prefab_1_1_resource.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Magnum::MagnumScene\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_magnum_scene_1_1_resource.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="Magnum::SceneCollision\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_scene_collision_1_1_resource.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="Magnum::SkeletalAnimModel\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_skeletal_anim_model_1_1_resource.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="Magnum::SpriteSheet\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_sprite_sheet_1_1_resource.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="Magnum::Texture2DFile\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_texture2_d_file_1_1_resource.html",tooltip="Texture2DFile::Resource. "];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="Magnum::TextureCubeFile\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_texture_cube_file_1_1_resource.html",tooltip="TextureCubeFile::Resource. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="Magnum::VisualEffect\l::Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_visual_effect_1_1_resource.html"];
+}

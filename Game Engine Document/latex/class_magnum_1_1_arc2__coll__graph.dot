@@ -1,0 +1,12 @@
+digraph "Magnum::Arc2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::Arc2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="Magnum::Circle2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_circle2.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Center" ];
+  Node3 [label="Magnum::Vector2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector2.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ONE\nNULL_\nZERO\nUNIT_X\nUNIT_Y" ];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Center\nEnd0\nEnd1" ];
+}

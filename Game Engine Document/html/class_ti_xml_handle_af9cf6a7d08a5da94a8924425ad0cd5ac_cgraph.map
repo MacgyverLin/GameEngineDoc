@@ -1,0 +1,4 @@
+<map id="TiXmlHandle::Child" name="TiXmlHandle::Child">
+<area shape="rect" id="node2" href="$class_ti_xml_node.html#a44c8eee26bbe2d1b2762038df9dde2f0" title="The first child of this node. Will be null if there are no children. " alt="" coords="189,5,336,32"/>
+<area shape="rect" id="node3" href="$class_ti_xml_node.html#a1b94d2f7fa7ab25a5a8e8d4340c449c9" title="STL std::string form. " alt="" coords="184,80,341,107"/>
+</map>

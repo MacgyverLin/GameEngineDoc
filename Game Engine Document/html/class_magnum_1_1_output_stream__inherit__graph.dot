@@ -1,0 +1,10 @@
+digraph "Magnum::OutputStream"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::OutputStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::FileOutputStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_file_output_stream.html",tooltip="FileOutputStream. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Magnum::MemOutputStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_mem_output_stream.html",tooltip="MemOutputStream. "];
+}

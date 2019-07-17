@@ -1,0 +1,9 @@
+digraph "圖形化之類別階層"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="agm::reflection::_\l_callable__",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structagm_1_1reflection_1_1____callable____.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="agm::reflection::_\l_static_callable_void0__",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structagm_1_1reflection_1_1____static__callable__void0____.html"];
+}

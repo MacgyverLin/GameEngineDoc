@@ -1,0 +1,10 @@
+digraph "Magnum::Functor2&lt; P1, P2 &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::Functor2\< P1,\l P2 \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::Link\< Functor2\l\< P1, P2 \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_link.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Magnum::Delegate2\<\l P1, P2 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_delegate2.html"];
+}

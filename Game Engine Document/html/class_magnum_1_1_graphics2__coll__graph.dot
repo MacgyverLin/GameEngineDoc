@@ -1,0 +1,17 @@
+digraph "Magnum::Graphics2"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Magnum::Graphics2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Magnum::Component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_component.html",tooltip="Component. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" color" ,fontname="Helvetica"];
+  Node3 [label="Magnum::ColorRGBA",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_color_r_g_b_a.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BRIGHT_BLUE\nCYAN\nBROWN\nMANGENTA\nBRIGHT_GREEN\nWHITE\nYELLOW\nBRIGHT_CYAN\nBRIGHT_MANGENTA\nBRIGHT_RED\n..." ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scale" ,fontname="Helvetica"];
+  Node4 [label="Magnum::Vector2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector2.html"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ONE\nNULL_\nZERO\nUNIT_X\nUNIT_Y" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" position" ,fontname="Helvetica"];
+  Node5 [label="Magnum::Vector3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_vector3.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ONE\nZERO\nUNIT_X\nUNIT_Y\nUNIT_Z" ,fontname="Helvetica"];
+}

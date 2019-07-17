@@ -1,0 +1,30 @@
+digraph "Magnum::RenderStatesBlock"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Magnum::RenderStatesBlock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" scissor\nviewport" ,fontname="Helvetica"];
+  Node2 [label="Magnum::GXImageRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_image_rect.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blendModeRgb\nblendModeAlpha" ,fontname="Helvetica"];
+  Node3 [label="Magnum::GXBlendMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_blend_mode.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Subtract\nReverseSubtract\nAdd" ,fontname="Helvetica"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stencilTestModeFront\nstencilTestModeBack" ,fontname="Helvetica"];
+  Node4 [label="Magnum::GXStencilTestMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_stencil_test_mode.html"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" NotEequal\nNever\nLEqual\nLess\nGEqual\nGreater\nAlways\nEqual" ,fontname="Helvetica"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" colorMask" ,fontname="Helvetica"];
+  Node5 [label="Magnum::GXColorMask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_color_mask.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Rgba\nG\nNone\nRgb\nA\nR\nB" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stencilOpZPassFront\nstencilOpFailFront\nstencilOpFailBack\nstencilOpZFailFront\nstencilOpZPassBack\nstencilOpZFailBack" ,fontname="Helvetica"];
+  Node6 [label="Magnum::GXStencilOp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_stencil_op.html"];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Incr\nReplace\nKeep\nDecrWrap\nInvert\nZero\nIncrWrap\nDecr" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" depthTestMode" ,fontname="Helvetica"];
+  Node7 [label="Magnum::GXDepthTestMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_depth_test_mode.html"];
+  Node7 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" NotEequal\nNever\nLEqual\nLess\nGEqual\nGreater\nAlways\nEqual" ,fontname="Helvetica"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cullMode" ,fontname="Helvetica"];
+  Node8 [label="Magnum::GXCullMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_cull_mode.html"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CCW\nCW" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blendDstFactorAlpha\nblendSrcFactorAlpha\nblendSrcFactorRgb\nblendDstFactorRgb" ,fontname="Helvetica"];
+  Node9 [label="Magnum::GXBlendFactor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_magnum_1_1_g_x_blend_factor.html"];
+  Node9 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" OneMinusSrcAlpha\nSrcAlphaSaturate\nDstColor\nOne\nSrcColor\nDstAlpha\nSrcAlpha\nZero\nOneMinusSrcColor\nOneMinusDstAlpha\n..." ,fontname="Helvetica"];
+}
